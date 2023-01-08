@@ -1,5 +1,7 @@
 # SQLReq
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/scootpl/sqlreq.svg)](https://pkg.go.dev/github.com/scootpl/sqlreq)
+
 SQLReq is a wrapper around standard Go net/http client. You can execute REST requests using SQL-like syntax.
 
 ## Quick Start
