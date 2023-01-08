@@ -8,9 +8,9 @@ SQLReq is a wrapper around standard Go net/http client. You can execute REST req
 import "github.com/scootpl/sqlreq"
 
 xauth, status, err := sqlreq.SelectHEADER(`
-	X-AUTH FROM http://example.com/api/init
+    X-AUTH FROM http://example.com/api/init
     WHERE login = testlogin AND pass = testpass
-	WITH POST`)
+    WITH POST`)
 ```
 
 ```go
